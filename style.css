@@ -1,0 +1,92 @@
+html, body {
+width: 880px;
+  margin: auto;
+  text-align: center;
+}
+
+.verx{
+  position: absolute;
+  top: -16px;
+  width: 800px;
+  height: 20px;
+
+}
+.verx p{
+	 float: left;
+	 width: 100px; 
+	 height: 20px; 
+	 text-align: center;
+	 margin:0px;
+}
+.niz{
+	bottom: -16px;
+	position: absolute;
+	width: 800px;
+	height: 10px;
+}
+.niz p{
+	 transform: rotate(180deg);
+	 float: left;
+	 width: 100px; 
+	 height: 10px; 
+	 text-align: center;
+	 margin: 0px;
+}
+.levo{
+	position: absolute;
+    left: -18px;
+	width: 20px;
+	float: left;
+}
+.levo p{
+	margin: 40px 0px 0px 0px;
+	text-align: center;
+	width: 20px; 
+	height: 60px;
+}
+.pravo{
+	position: absolute;
+	top: -45px;
+	right: -17px;
+	width: 20px;
+	float: right;
+}
+.pravo p{
+	transform: rotate(180deg);
+	margin: 40px 0px 0px 0px;
+	text-align: center;
+	width: 20px; 
+	height: 60px;
+}
+
+.border{
+	border: 20px solid #35002d;
+	border-radius: 40px;
+}
+
+.chess{
+	display: inline-block;
+  	position: relative;
+  	border: 20px solid grey;
+ 	border-radius: 20px;
+  	text-align: center;
+	padding: 0px;
+	width: 800px;
+	height: 800px;
+}
+.str div{
+float: left; width: 100px; height: 100px; 
+}
+
+.chess .str:nth-child(odd) div:nth-child(odd)  {
+	background: #35002d;
+	}
+.chess .str:nth-child(even) div:nth-child(even) {
+	background: #35002d;
+}
+.chess .str:nth-child(odd) div:nth-child(even)  {
+	background: white;
+	}
+.chess .str:nth-child(even) div:nth-child(odd) {
+	background: white;
+}
