@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Справочник студентов</string>
+    <string name="hello_text">Список студентов</string>
+    <string name="btn_text">Показать список</string>
+    <string-array name="students_groups">
+        <item>К20-1</item>
+        <item>К21-1</item>
+    </string-array>
+    <string name="btn_send">Отправить уведомление</string>
+</resources>
